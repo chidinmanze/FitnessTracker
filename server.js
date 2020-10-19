@@ -17,7 +17,7 @@ require("./routes/htmlRoutes")(app);
 
 
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workouts", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker", {
   useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
